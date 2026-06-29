@@ -45,9 +45,9 @@ This is real government data, not a synthetic or precleaned Kaggle dataset every
 
 ---
 
-## 4. Process — What Was Actually Built, Phase by Phase
+## 4. Process - What Was Actually Built, Phase by Phase
 
-### Phase 1 — Data Ingestion (`01_load_data.py`)
+### Phase 1 - Data Ingestion (`01_load_data.py`)
 
 Loaded 9 raw AACT tables (`studies`, `sponsors`, `eligibilities`, `drop_withdrawals`, `outcomes`, `conditions`, `facilities`, `reported_events`, `interventions`), selecting only the columns needed to answer the project's questions. Two large tables (`facilities` - 3.4M rows, `reported_events`   - 11.7M rows) were aggregated immediately on load rather than held in full, to keep the pipeline runnable on a local machine.
 
@@ -175,43 +175,7 @@ This project shows that a meaningful amount of clinical trial risk is visible in
 
 ---
 
-## Project Structure
 
-healthcare-funnel-analyzer/
-│
-├── src/
-│   ├── 01_load_data.py            # Phase 1 - ingest + filter AACT cohort
-│   ├── 02_funnel_analysis.py      # Phase 2 - funnel, segmentation, EDA charts
-│   ├── 03_ml_model.py             # Phase 3 - feature eng, train/eval models
-│   └── run_funnel_query.py        # Phase 4 - runs funnel_query.sql live
-│
-├── sql/
-│   └── funnel_query.sql           # 12-CTE PostgreSQL funnel query
-│
-├── reports/
-│   ├── eda/                       # 6 Plotly HTML charts (Phase 2)
-│   ├── shap/                      # 3 model evaluation charts (Phase 3)
-│   └── sql_output/
-│       └── sql_verification_output.txt   # live SQL run log
-│
-├── data/
-│   ├── raw/
-│   │   └── aact/                  # gitignored - raw AACT .txt files
-│   └── processed/
-│       ├── cohort_*.parquet       # gitignored - 9 cohort-filtered tables
-│       ├── master_funnel.parquet  # gitignored - main feature table
-│       ├── risk_scores.csv        # gitignored - model output, all trials
-│       └── sql_verified/          # gitignored - 6 CSVs from live SQL run
-│
-├── models/
-│   ├── risk_classifier_xgb.pkl    # trained XGBoost model
-│   └── imputer.pkl                # fitted median imputer
-│
-├── healthcare_funnel_report.xlsx  # Excel report (4 sheets + raw data)
-├── requirements.txt
-├── .gitignore
-└── README.md
----
 
 ## About
 
