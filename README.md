@@ -169,7 +169,6 @@ This project shows that a meaningful amount of clinical trial risk is visible in
 - **Therapeutic area segmentation** the `conditions` table was loaded but not yet used to compare termination risk across oncology, cardiology, infectious disease, etc.
 - **SHAP explainability** — individual trial level explanations for *why* a specific trial was scored high risk, beyond global feature importance.
 - **S3 staging layer** — landing `risk_scores.csv` in an S3 bucket and pointing Tableau/Power BI at it directly, to demonstrate a cloud data engineering pattern rather than a local file handoff.
-- **Power BI version** — a second BI deliverable alongside Tableau, since both tools are commonly requested in different job postings.
 - **Excel VBA macro** — a small macro to auto refresh the Power Query connection when `risk_scores.csv` updates, rounding out the Excel automation story.
 - **dbt staging/mart models** formalizing the SQL transformation layer using dbt instead of a single flat `.sql` file, for a closer match to a modern production data stack.
 
