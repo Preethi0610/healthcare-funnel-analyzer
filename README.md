@@ -59,11 +59,11 @@ The cohort was filtered to: `study_type = INTERVENTIONAL`, `phase IN (PHASE2, PH
 
 Built features (trial duration, results posted flag, lead sponsor type, site count, withdrawal totals, primary outcome counts), then constructed a **5 stage funnel** where each stage is a genuine subset of the one before it:
 
-Stage 1: Registered (Phase 2/3)
-Stage 2: Enrollment Data Recorded
-Stage 3: Reached Primary Completion Date
-Stage 4: Completed (Not Terminated)
-Stage 5: Results Posted Publicly
+- Stage 1: Registered (Phase 2/3)
+- Stage 2: Enrollment Data Recorded
+- Stage 3: Reached Primary Completion Date
+- Stage 4: Completed (Not Terminated)
+- Stage 5: Results Posted Publicly
 
 Segmented termination rate by phase and by sponsor type, identified the top 15 reported withdrawal reasons, and generated 6 interactive Plotly charts.
 
