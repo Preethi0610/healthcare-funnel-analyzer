@@ -9,7 +9,31 @@
 ![Tableau](https://img.shields.io/badge/Tableau-Public-E97627?style=flat)
 ![Excel](https://img.shields.io/badge/Excel-Power%20Query-217346?style=flat)
 
----
+## Visuals
+
+<table>
+  <tr>
+    <td><img width="500" src="https://github.com/user-attachments/assets/606b737e-26f0-4551-801d-396b088d038b" alt="Duration vs Withdrawals"/><br/><sub>Clinical Trial Patient    Funnel - 5 Stages</sub></td>  
+    <td><img width="500" src="https://github.com/user-attachments/assets/4a839168-6f87-4ecf-8b4a-a3f148e233a8" alt="Feature Importance"/><br/><sub>Termination Rate by Sponsor Type</sub>
+  </tr>
+  <tr>
+    <td><img width="500" src="https://github.com/user-attachments/assets/718facff-700c-415f-82f4-e27b39182e69" alt="Termination by Sponsor"/><br/><sub>Top 15 Withdrawal Reasons Across All Trials</sub></td>
+    <td><img width="500" src="https://github.com/user-attachments/assets/99f47b58-6148-4313-9427-cd0e32d8694d" alt="Withdrawal Reasons"/><br/><sub>Termination Rate by Trial Phase</sub></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+   <td><img width="500" src="https://github.com/user-attachments/assets/c96e9f69-1045-4492-a7f6-b64474116efe" alt="ROC Curves"/><br/><sub></sub></td>
+    <td><img width="500" src="https://github.com/user-attachments/assets/3def4686-f115-4a4f-aa4e-537c16fc0ca9" alt="Risk Band Distribution"/><br/><sub></sub></td>
+  </tr>
+  <tr>
+   <td><img width="500" src="https://github.com/user-attachments/assets/a83c6ecf-54f5-482b-8957-0f2afa57db25" alt="Funnel Overview"/><br/><sub></sub></td>
+  <td><img width="500" src="https://github.com/user-attachments/assets/9cba5642-39fd-4589-9d14-95961d64968d" alt="Termination by Phase"/><br/><sub></sub></td>
+  </tr>
+</table>
+
+
 
 ## 1. Objective
 
@@ -127,6 +151,7 @@ Built an interactive Tableau Public dashboard with 4 linked views a risk-band fu
 | Tableau | Published interactive dashboard + Story | Filter actions tested and working |
 
 ---
+
 
 ## 7. Key Findings
 
