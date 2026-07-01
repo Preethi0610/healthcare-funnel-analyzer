@@ -11,7 +11,7 @@
 
 ## Visuals
 
-<video src="https://github.com/user-attachments/assets/das.mov" controls width="800"></video>
+<video src="https://github.com/user-attachments/assets/dash.mov">
 
 <table>
   <tr>
