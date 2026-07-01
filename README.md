@@ -11,8 +11,6 @@
 
 ## Visuals
 
-https://github.com/user-attachments/assets/dashboard.mp4
-
 <table>
   <tr>
     <td><img width="500" src="https://github.com/user-attachments/assets/606b737e-26f0-4551-801d-396b088d038b" alt="Duration vs Withdrawals"/><br/><sub>Clinical Trial Patient    Funnel - 5 Stages</sub></td>  
