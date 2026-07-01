@@ -11,7 +11,7 @@
 
 ## Visuals
 
-<video src="https://github.com/user-attachments/assets/dash.mov">
+https://github.com/user-attachments/assets/dashboard.mp4
 
 <table>
   <tr>
